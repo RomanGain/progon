@@ -1,0 +1,75 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+void greekletters()
+{
+	cout << "Enter the alpha, beta and gamma:" << endl;
+};
+
+float f_equtation(int f) //<--- возможно стоит передавать альфа, бета и гамму
+{
+
+
+	return f;
+};
+
+void main()
+{
+	/*int alph, bet, gam, n, i;
+	float h,f;
+	greekletters();
+	cin >> alph;
+	cin >> bet;
+	cin >> gam;
+	//рассчет f
+	cout << "Enter the n" << endl;
+	cin >> n;
+	h = 1.0 / n;
+	float* fi = new float[n];
+	float* b = new float[n];
+	float* a = new float[n];
+	for (i = 1; i<n ; i++) 
+		{
+			fi[i] = f_equatation*i*h;
+			b[i] = q*i*h;
+			a[i] = p*i*h;
+		}
+
+					float* C = new float[n];
+					float* B = new float[n];
+					float* A = new float[n];
+					for (i = 1; i<n ; i++) 
+					{
+						C[i] = a[i+1]/pow(h,2);
+						B[i] = (a[i]+a[i+1])/pow(h,2)*b[i];
+						A[i] = a[i-1]/pow(h,2);
+
+					}
+
+
+								float* P = new float[n];
+								float* Q = new float[n];
+								float* y = new float[n];
+								for (i = 1; i<n; i++)
+								{
+									P[i+1] = C[i]/(B[i]-A[i]*P[i]);
+									Q[i+1] = (A[i]*Q[i]+fi[i])/(B[i]-A[i]*P[i]);
+
+								}
+
+									float* y = new float[n];
+									for (i=1 ; i<n ; i++)
+									{
+										y[i] = P[i+1]*y[i+1] + Q[i+1];
+										cout << "y" <<i<< " = "<< y[i];
+
+									}
+
+		
+		delete[] fi;
+		delete[] b;
+		delete[] a;*/
+	system("pause");
+}
